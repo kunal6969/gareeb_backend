@@ -6,7 +6,7 @@ const authenticateToken = async (req, res, next) => {
     console.log('🔐 Auth middleware - Starting authentication check');
     console.log('🔐 Auth middleware - Request path:', req.path);
     console.log('🔐 Auth middleware - Request method:', req.method);
-    
+    // vikas kya problem hui
     // Get token from Authorization header
     const authHeader = req.headers.authorization;
     const token = authHeader && authHeader.startsWith('Bearer ') ? authHeader.substring(7) : null;
