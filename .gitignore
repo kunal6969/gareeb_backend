@@ -19,7 +19,6 @@ pids
 
 # Google Cloud Service Account
 google-service-account.json
-*.json
 
 # Logs
 logs
